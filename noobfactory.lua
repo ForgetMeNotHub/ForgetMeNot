@@ -419,7 +419,7 @@ function Ascender1Attack()
             [1] = "1",
             [2] = "Attack"
         }
-        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StartAscending:InvokeServer(unpack(args))
+        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StartAscending:InvokeServer(unpack(args))
     end
 end
 
@@ -429,7 +429,7 @@ function Ascender1Armor()
             [1] = "1",
             [2] = "Armor"
         }
-        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StartAscending:InvokeServer(unpack(args))    
+        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StartAscending:InvokeServer(unpack(args))    
     end
 end
 
@@ -439,7 +439,7 @@ function Ascender1Enchant()
             [1] = "1",
             [2] = "Enchant"
         }
-        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StartAscending:InvokeServer(unpack(args))
+        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StartAscending:InvokeServer(unpack(args))
     end
 end
 
@@ -449,7 +449,7 @@ function Ascender1Valuation()
             [1] = "1",
             [2] = "Evaluation"
         }
-        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StartAscending:InvokeServer(unpack(args))
+        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StartAscending:InvokeServer(unpack(args))
     end
 end
 
@@ -459,7 +459,7 @@ function Ascender2Attack()
             [1] = "2",
             [2] = "Attack"
         }
-        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StartAscending:InvokeServer(unpack(args))
+        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StartAscending:InvokeServer(unpack(args))
     end
 end
 
@@ -469,7 +469,7 @@ function Ascender2Armor()
             [1] = "2",
             [2] = "Armor"
         }
-        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StartAscending:InvokeServer(unpack(args))
+        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StartAscending:InvokeServer(unpack(args))
     end
 end
 
@@ -479,7 +479,7 @@ function Ascender2Enchant()
             [1] = "2",
             [2] = "Enchant"
         }
-        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StartAscending:InvokeServer(unpack(args))
+        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StartAscending:InvokeServer(unpack(args))
     end
 end
 
@@ -489,7 +489,7 @@ function Ascender2Valuation()
             [1] = "2",
             [2] = "Evaluation"
         }
-        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StartAscending:InvokeServer(unpack(args))
+        workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StartAscending:InvokeServer(unpack(args))
     end
 end
 
@@ -497,14 +497,14 @@ function StopAscending1()
     local args = {
         [1] = "1"
     }
-    workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StopAscending:InvokeServer(unpack(args))
+    workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StopAscending:InvokeServer(unpack(args))
 end
 
 function StopAscending2()
     local args = {
         [1] = "2"
     }
-    workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Factory.Events.ToServer.StopAscending:InvokeServer(unpack(args))
+    workspace.Homes:FindFirstChild(tostring(game.Players.LocalPlayer.UserId)).Util.Ascender.Events.ToServer.StopAscending:InvokeServer(unpack(args))
 end
 
 function AntiAFK()
